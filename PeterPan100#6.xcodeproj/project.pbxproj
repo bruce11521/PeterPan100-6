@@ -13,6 +13,8 @@
 		4EE1C5622366C64700D3AA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1C5612366C64700D3AA46 /* Assets.xcassets */; };
 		4EE1C5652366C64700D3AA46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1C5642366C64700D3AA46 /* Preview Assets.xcassets */; };
 		4EE1C5682366C64700D3AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1C5662366C64700D3AA46 /* LaunchScreen.storyboard */; };
+		4EE1C5702366C85A00D3AA46 /* PlayAlone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE1C56F2366C85A00D3AA46 /* PlayAlone.swift */; };
+		4EE1C5722366C86900D3AA46 /* PlayTogether.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE1C5712366C86900D3AA46 /* PlayTogether.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4EE1C5642366C64700D3AA46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4EE1C5672366C64700D3AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EE1C5692366C64700D3AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE1C56F2366C85A00D3AA46 /* PlayAlone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAlone.swift; sourceTree = "<group>"; };
+		4EE1C5712366C86900D3AA46 /* PlayTogether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTogether.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4EE1C55B2366C64600D3AA46 /* AppDelegate.swift */,
 				4EE1C55D2366C64600D3AA46 /* SceneDelegate.swift */,
 				4EE1C55F2366C64600D3AA46 /* ContentView.swift */,
+				4EE1C56F2366C85A00D3AA46 /* PlayAlone.swift */,
+				4EE1C5712366C86900D3AA46 /* PlayTogether.swift */,
 				4EE1C5612366C64700D3AA46 /* Assets.xcassets */,
 				4EE1C5662366C64700D3AA46 /* LaunchScreen.storyboard */,
 				4EE1C5692366C64700D3AA46 /* Info.plist */,
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE1C5722366C86900D3AA46 /* PlayTogether.swift in Sources */,
 				4EE1C55C2366C64600D3AA46 /* AppDelegate.swift in Sources */,
 				4EE1C55E2366C64600D3AA46 /* SceneDelegate.swift in Sources */,
 				4EE1C5602366C64600D3AA46 /* ContentView.swift in Sources */,
+				4EE1C5702366C85A00D3AA46 /* PlayAlone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
